@@ -11,7 +11,7 @@ NAME VARCHAR (100) NOT NULL,
 release_date DATE NOT NULL,
 
 sales DECIMAL (3,2) NOT NULL,
-
+/*This is a comment*/
 genre VARCHAR(100) NOT NULL,
 PRIMARY KEY (ID)
 );
