@@ -26,7 +26,7 @@ INSERT INTO albums(artist,name, release_date,sales,genre)
       INSERT INTO albums(artist,name, release_date,sales,genre)
       VALUES('Celine Dion','Falling Into You',1996,20.2,'Pop,Soft rock');
       INSERT INTO albums(artist,name, release_date,sales,genre)
-      VALUES('The Beatles','Sgt. Peppers Lonely Hearts Club Band',1967,13.1,'Rock');
+      VALUES('The Beatles','Sgt. Peppers Lonely Hearts Club Band', 1967, 13.1, 'Rock');
       INSERT INTO albums(artist,name, release_date,sales,genre)
       VALUES('Michael Jackson','Dangerous',1991,19.4,'Rock,Funk,Pop');
       INSERT INTO albums(artist,name, release_date,sales,genre)
