@@ -37,3 +37,7 @@ SELECT last_name
 FROM employees
 WHERE last_name like '%q%'
 and last_name not like '%qu%';
+
+SELECT hire_date, first_name, last_name
+FROM employees
+Group BY hire_date,first_name, last_name;
