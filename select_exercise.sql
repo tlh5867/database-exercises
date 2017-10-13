@@ -15,15 +15,18 @@ SELECT genre AS 'genre'
 FROM albums
 WHERE NAME = 'Nevermind';
 
-select 'Which albums were released in the 1990s';
+select 'Which albums were released in the 1990s' AS '';
 select name as 'Album Name'
 from albums
 where release_date BETWEEN 1990 and 1999;
 
-SELECT 'Which albums had less than 20 million certified sales';
+SELECT 'Which albums had less than 20 million certified sales'AS '';
 SELECT name as 'Album Name'
 from albums
 where sales < 20.0;
 
 SELECT 'All the albums with a genre of "Rock"' AS '';
 SELECT * FROM albums WHERE genre = 'Rock';
+
+SELECT 'All Soft Rock Albums' AS '';
+SELECT * FROM  albums WHERE genre = 'Soft rock';

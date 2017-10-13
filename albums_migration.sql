@@ -10,7 +10,7 @@ NAME VARCHAR (100) NOT NULL,
 
 release_date INT NOT NULL,
 
-sales DECIMAL (3,1) NOT NULL,
+sales FLOAT NOT NULL,
 /*This is a comment*/
 genre VARCHAR(100) NOT NULL,
 PRIMARY KEY (ID)
