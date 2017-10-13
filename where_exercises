@@ -1,4 +1,4 @@
-USE employees_db;
+USE employees;
 
 -- Update your query for 'Irena', 'Vidya', or 'Maya' to use OR instead of IN — 709 rows.
 SELECT *
