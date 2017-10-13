@@ -22,7 +22,7 @@ SELECT
 FROM employees
 WHERE hire_date BETWEEN '1990-01-01' AND '1999-12-31'
 And birth_date LIKE '%-12-25'
-GROUP BY 'namee_count', last_name, first_name
+GROUP BY 'name_count', last_name, first_name
 ORDER BY name_count DESC ;
 
 SELECT last_name

@@ -7,3 +7,5 @@ FROM employees
 LIMIT 10;
 
 # Add the date of birth for each employee as 'DOB' to the query.
+DESCRIBE employees;
+
