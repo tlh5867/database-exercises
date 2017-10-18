@@ -1,4 +1,4 @@
-USE employees_db;
+USE employees;
 SELECT
   first_name,
   last_name
